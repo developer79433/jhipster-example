@@ -8,6 +8,7 @@ import org.springframework.boot.test.autoconfigure.web.reactive.AutoConfigureWeb
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.reactive.server.WebTestClient;
+import org.example.web.rest.errors.ErrorConstants;
 
 /**
  * Integration tests {@link ExceptionTranslator} controller advice.
