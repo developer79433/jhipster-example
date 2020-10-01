@@ -1,14 +1,14 @@
 package org.example.cucumber;
 
-import org.example.JhipsterexampleApp;
 import io.cucumber.java.Before;
+import org.openapitools.OpenAPI2SpringBoot;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.web.WebAppConfiguration;
 
 @SpringBootTest
 @WebAppConfiguration
-@ContextConfiguration(classes = JhipsterexampleApp.class)
+@ContextConfiguration(classes = OpenAPI2SpringBoot.class)
 public class CucumberContextConfiguration {
 
     @Before

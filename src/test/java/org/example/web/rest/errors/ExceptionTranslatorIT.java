@@ -1,7 +1,7 @@
 package org.example.web.rest.errors;
 
-import org.example.JhipsterexampleApp;
 import org.junit.jupiter.api.Test;
+import org.openapitools.OpenAPI2SpringBoot;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.autoconfigure.web.reactive.AutoConfigureWebTestClient;
@@ -13,7 +13,7 @@ import org.springframework.test.web.reactive.server.WebTestClient;
  * Integration tests {@link ExceptionTranslator} controller advice.
  */
 @AutoConfigureWebTestClient
-@SpringBootTest(classes = JhipsterexampleApp.class)
+@SpringBootTest(classes = OpenAPI2SpringBoot.class)
 public class ExceptionTranslatorIT {
 
     @Autowired
