@@ -278,6 +278,11 @@
     <artifactId>openapi-generator</artifactId>
     <version>${openapi-generator-version}</version>
 </dependency>
+<dependency>
+    <groupId>org.openapitools</groupId>
+    <artifactId>jackson-databind-nullable</artifactId>
+    <version>0.2.1</version>
+</dependency>
         <!-- jhipster-needle-maven-add-dependency -->
     </dependencies>
 
@@ -361,7 +366,10 @@
             </goals>
             <configuration>
                 <inputSpec>${project.basedir}/src/main/resources/swagger/api.yml</inputSpec>
-                <generatorName>java</generatorName>
+                <generatorName>spring</generatorName>
+                <configOptions>
+                <reactive>true</reactive>
+                </configOptions>
             </configuration>
         </execution>
     </executions>
