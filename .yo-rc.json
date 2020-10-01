@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.example"
+    },
+    "jhipsterVersion": "6.10.3",
+    "applicationType": "microservice",
+    "baseName": "jhipsterexample",
+    "packageName": "org.example",
+    "packageFolder": "org/example",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZjI2OTc1MWQxMGQ4YTk1YzQ0ZWQ4N2Y5YzA0MjJiNTc0OTA3ZjQyM2U3ZDYyY2M0ODUwYzJmYTM4OTdlNGJlMzEwNjVmNjc2M2MxNWE2NzQwMjQzOWMzZTY0ZDc1MjdiMTQ5ZWQ0ZmE1NWFjMjA0YzQ5MTY0YWZmNGUwOTAzOTQ=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1601512417445,
+    "testFrameworks": ["gatling", "cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "reactive": true,
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
