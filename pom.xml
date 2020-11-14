@@ -369,6 +369,7 @@
                 <generatorName>spring</generatorName>
                 <configOptions>
                 <reactive>true</reactive>
+                <skipDefaultInterface>true</skipDefaultInterface>
                 </configOptions>
             </configuration>
         </execution>
